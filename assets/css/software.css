@@ -1,0 +1,126 @@
+:root {
+
+	--backgroundGray: #2f2f2f;
+
+
+}
+@font-face {
+
+  font-family: forte;
+  src: url(../../assets/fonts/FORTE.TTF);
+}
+@font-face {
+
+  font-family: century gothic;
+  src: url(../../assets/fonts/GOTHIC.TTF);
+}
+
+@font-face {
+
+  font-family: eras itc;
+  src: url(../../assets/fonts/ERASBD.TTF);
+}
+@font-face {
+
+  font-family: Lucida sans;
+  src: url(../../assets/fonts/LSANS.TTF);
+	  }
+
+
+* {
+
+	padding: 0;
+	margin: 0;
+}
+
+body, html {
+
+	/*background: var(--backgroundGray);*/
+	min-height: 100vh;
+	background: linear-gradient(-45deg, #d2d2d2 50%, #353535 50% 75%, #d2d2d2 75%);
+	background-size: cover, cover;
+	background-repeat: no-repeat,no-repeat;
+
+
+}
+
+/**************************Main divs**********************/
+
+.mainProductSec {
+
+	display: flex;
+	width: 90%;
+	margin: 50px auto;
+	height: 50vh;
+	background: #e0e0e0;
+	/*border: 2px solid lightgray;*/
+	border-radius: 5px;
+
+}
+
+/*********************************************************/
+
+/************************product image****************/
+
+.productImage {
+
+	width: 30%;
+	padding: 5px;
+}
+.productImage img {
+
+	height: 100%;
+}
+/*********************************************************/
+
+/**************************description section**********/
+
+.productDescription {
+
+	padding: 20px;
+	overflow-y: hidden;
+	margin-right: 30px;
+}
+
+/***********************************************************/
+
+/*************************return button****************/
+	
+	#back {
+
+	display: flex;
+	width: 90%;
+	margin: 50px auto;
+	
+	
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.mainProductSec {
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+	margin: 20px auto;
+	/*height: 50vh;*/
+	height: fit-content;
+	background: #e0e0e0;
+	/*border: 2px solid lightgray;*/
+	border-radius: 5px;
+
+	}
+	.productImage {
+
+		width: 100%;
+			padding: 5px;
+			text-align: center;
+		}
+		.productImage img {
+
+		width: 80px;
+		
+		}
+	}
+
+/*******************************************************/

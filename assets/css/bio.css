@@ -1,0 +1,30 @@
+
+
+body, html {
+
+	background: #2f2f2f
+}
+
+.profile {
+
+	text-align: center;
+	font-size: 50px;
+	font-family: "candara";
+	color: white;
+	height: 80vh;
+}
+
+.profile h2 {
+
+	margin-top: 5%;
+}
+
+.profile img {
+
+	border: 12px solid grey;
+	border-radius: 5px;
+	background: linear-gradient(-45deg, grey, red);
+	box-shadow: inset 0px 0 5px black;
+	width: 80%;
+	height: 80%;
+}
