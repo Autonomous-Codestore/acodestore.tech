@@ -75,22 +75,7 @@
         }
 
 
-
      });
-
-   
-  
-
-         
-
-
-// ---------------------------------trial code--------------------
-    
-    
-
-//---------------------------------------------------------------- 
-      
-        
      
     });
 
@@ -103,11 +88,17 @@
 
 
     const productBTN = document.getElementsByClassName("btn-warning");
+    const rotaractWebBTN = document.getElementById("rotaractJS");
     const primeWebBTN = document.getElementById("primeJS");
 
-    primeWebBTN.addEventListener('click',() =>{
+    rotaractWebBTN.addEventListener('click',() =>{
 
         window.location = "https://rotaractmbarara.org/";
+
+         });
+    primeWebBTN.addEventListener('click',() =>{
+
+        window.location = "https://prime-biomedical.com";
 
          });
     

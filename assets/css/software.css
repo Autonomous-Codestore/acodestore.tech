@@ -96,7 +96,7 @@ body, html {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
 
 	.mainProductSec {
 		display: flex;
