@@ -82,6 +82,16 @@ body, html {
 	margin-right: 30px;
 }
 
+.productDescription p {
+
+	height: 50%;
+}
+.productDescription h3 {
+
+	text-transform: capitalize;
+}
+
+
 /***********************************************************/
 
 /*************************return button****************/

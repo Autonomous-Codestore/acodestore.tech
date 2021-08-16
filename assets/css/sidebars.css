@@ -297,11 +297,13 @@ main {
       height: 75%;
       border-left: 1px solid grey;
       text-align: justify;
-      
+      position: relative;
        padding-left: 20px;
        padding-right: 25px;
        margin: 30px 10px;
     }
+
+   
 
     .form-control {
 
@@ -539,6 +541,7 @@ main {
   .servicesDecsription p {
 
     padding: 20px;
+    font-size: 1.2rem;
   }
   .servTXT {
 
@@ -703,6 +706,11 @@ main {
     .projectCard article {
 
       min-height: 85%;
+    }
+
+    .projectCard p {
+
+      padding-right: 10px;
     }
     .projectCard hr {
 
@@ -1070,8 +1078,11 @@ main {
                  padding-left: 20px;
                  padding-right: 20px;
                  margin: 10px 10px;
+                 position: relative;
     
         }
+
+        
 
 
            .servicesContainer img {
@@ -1104,10 +1115,11 @@ main {
 
                     .servicesDecsription {
 
-                     
+                      
                       width: 100%;
                     
                    }
+
 
 
                         .projectCard {
