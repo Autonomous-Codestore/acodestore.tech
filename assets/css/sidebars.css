@@ -155,7 +155,12 @@ main {
 
   
 
-  background: var(--darkTheme) !important;
+  /*background: var(--darkTheme) !important;*/
+  
+  background: linear-gradient(0deg, rgba(208, 235, 221, 0.0) 15%, rgba(9, 43, 51, 0.6) 55%), url("../../assets/imgs/Mbarara-City.jpg"); !important;
+        background-size: cover, cover;
+        background-position: bottom, center;
+        background-repeat: no-repeat, no-repeat;
 
 }
 
@@ -1314,6 +1319,7 @@ main {
           .bg-dark {
 
             background: #212529 !important;
+           
           }
           #mobViewNav {
             display: flex;

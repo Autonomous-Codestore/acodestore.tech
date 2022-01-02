@@ -1,5 +1,4 @@
-console.log("greetings")
-console.log("Width: " +screen.width + "Height: " +screen.height);
+
 
 
 // ----------------hambuger-------------
@@ -19,12 +18,11 @@ const navUL = document.getElementById('navbarSupportedContent');
 
 const bioBTN = document.getElementsByClassName("bio-page");
 
-console.log(bioBTN.length)
 
 for(let m = 0; m < bioBTN.length; m++)
  {     
 
-  console.log(m);
+ 
       bioBTN[m].addEventListener('click',() =>{
 
         window.location = "bio.html";
