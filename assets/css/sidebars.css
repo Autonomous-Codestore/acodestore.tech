@@ -299,13 +299,22 @@ main {
 
       
       width: 50%;
-      height: 75%;
-      border-left: 1px solid grey;
-      text-align: justify;
-      position: relative;
-       padding-left: 20px;
-       padding-right: 25px;
-       margin: 30px 10px;
+    height: 75%;
+    border-left: 1px solid grey;
+    text-align: justify;
+    font-weight: 100;
+    color: white;
+    border: 2px solid #ff1515;
+    border-radius: 15px;
+  
+    background: linear-gradient(124deg , #555, #333);
+    box-shadow: grey 0px 5px 10px;
+    position: relative;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 53px;
+    margin: 41px 10px;
     }
 
    

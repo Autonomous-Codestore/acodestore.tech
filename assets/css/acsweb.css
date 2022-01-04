@@ -613,6 +613,112 @@ button span {
   
 
 }
+/******************blog page*****************/
+
+.blog-title{
+	font-family: century gothic, sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 5rem;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.blog-container {
+
+
+	background: url(../imgs/softAbstract.jpg);
+	background-size: cover,cover;
+	background-repeat: no-repeat;
+	background-position: center, center;
+	height: 100%;
+	padding-bottom: 50px;
+	
+}
+.blog-sub-container{
+	width: 80%;
+	height: 80%;
+	/*overflow-y: scroll;*/
+	margin: 20px auto;
+
+	background: rgba(255, 255, 255, 0.8);
+}
+.blog-sub-container h2 {
+	text-align: center;
+	font-family: century gothic,sans-serif;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: white;
+}
+.blog-sub-container h3{
+	font-family: century gothic,sans-serif;
+	text-align: left;
+	width: 50%;
+	height: unset;
+	background: #008b83;
+	margin-bottom: 0;
+	margin-top: 20px;
+	padding: 10px 3%;
+
+}
+.blog-sub-container p {
+	width: 95%;
+	background: white;
+	font-family: century gothic,sans-serif;
+	margin-left: 5%;
+	padding: 20px 55px 50px 40px;
+	color: #4d4d4d;
+	position: relative;
+	cursor: pointer;
+}
+
+.blog-sub-container p::after {
+	content: '5 Min read by George';
+
+	color: black;
+	font-family: century gothic,sans-serif;
+	position: absolute;
+	right: 10%;
+	bottom: 10px;
+}
+
+.blog-post{
+	position: relative;
+}
+
+.blog-post::after{
+	content: '21 Feb 2022';
+	font-family: century gothic,sans-serif;
+	padding: 5px;
+	color: black;
+	width: 100px;
+	height: 30px;
+	background: #008b83;
+	display: block;
+	position: absolute;
+	top: -30px;
+	right: 10%;
+	white-space: nowrap;
+}
+
+
+.blog-post::before{
+	content: 'New';
+	font-family: century gothic,sans-serif;
+	padding: 5px;
+	color: whitesmoke;
+	width: 50px;
+	height: 30px;
+	background: red;
+	display: block;
+	position: absolute;
+	top: -30px;
+	right: 20%;
+	white-space: nowrap;
+	visibility: hidden;
+}
+
+
+/********************************************/
 /**************************Web****************/
 
 
